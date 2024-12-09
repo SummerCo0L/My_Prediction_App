@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 from datetime import datetime
+import sklearn
 
 # Load your models and pipelines
 model_1 = joblib.load('model/final_GBT_model_mediated.joblib')
